@@ -44,3 +44,4 @@ def play(board)
   turn(board)
   position +=1
 end
+end
