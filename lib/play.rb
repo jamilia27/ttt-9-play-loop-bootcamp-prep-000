@@ -40,7 +40,7 @@ end
 position = 0
 
 def play(board)
-  until position > 9
+  until position == 9
   turn(board)
   position +=1
 end
