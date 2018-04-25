@@ -37,5 +37,10 @@ end
 
 # Define your play method below
 
+position = 0
+
 def play(board)
+  until position > 9
+  turn(board)
+  position +=1
 end
